@@ -11,13 +11,15 @@ I wanted to see how much of that process I could automate using AI and workflow 
 ## What I Built
 I built a multi-step n8n workflow that takes creator and channel information, gathers research data, processes the information, uses AI to analyze it, and produces a structured YouTube strategy report.
 
-## Tools Used
-- n8n
-- YouTube Data API
-- AI/LLM APIs
-- Google APIs
-- JSON
-- Web research tools
+## Tools & Technologies Used
+- **n8n** — workflow automation and orchestration
+- **Anthropic Claude API** — AI-powered analysis, strategy generation, content ideation, scripting, SEO recommendations, and quality checks
+- **YouTube Data API v3** — collection of channel, video, audience, and competitor data
+- **Google APIs** — integration with Google services used within the workflow
+- **HTML/CSS** — formatting and styling the final generated strategy report
+- **JSON** — structured data handling and transformation throughout the workflow
+- **REST APIs & HTTP Requests** — connecting external services and exchanging data between workflow steps
+- **JavaScript / n8n Code Nodes** — data preparation, transformation, validation, and workflow logic
 
 ## Workflow Preview
 
