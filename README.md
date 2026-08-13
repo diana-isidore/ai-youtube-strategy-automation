@@ -19,14 +19,40 @@ I built a multi-step n8n workflow that takes creator and channel information, ga
 - JSON
 - Web research tools
 
-## What the Workflow Does
-1. Collects creator and channel information.
-2. Pulls relevant YouTube data.
-3. Researches competitors and related channels.
-4. Processes and structures the data.
-5. Uses AI to identify patterns and opportunities.
-6. Generates content ideas and strategic recommendations.
-7. Produces a structured final report.
+## Workflow Preview
+
+### Full Workflow
+The complete n8n workflow connects data collection, research, AI analysis, strategy generation, and report creation.
+
+![Full workflow overview](screenshots/01-full-workflow-overview.png)
+
+### Research & Data Collection
+The workflow collects and processes YouTube and competitor data before passing structured information into the analysis stages.
+
+![Research pipeline](screenshots/02-data-research-pipeline.png)
+
+### AI Strategy Generation
+Collected research is processed through AI-powered analysis steps to identify patterns, opportunities, and strategic recommendations.
+
+![AI strategy generation](screenshots/03-ai-strategy-generation.png)
+
+### Report Generation
+The final stages assemble the analysis into a structured strategy deliverable.
+
+![Report generation](screenshots/04-report-generation.png)
+
+## Sample Output
+
+Below are examples of the type of strategy report produced by the workflow.
+
+### Generated Report
+![Sample report cover](screenshots/05-sample-report-cover.png)
+
+### Strategy Analysis
+![Sample strategy output](screenshots/06-sample-strategy-output.png)
+
+### Content Recommendations
+![Sample content recommendations](screenshots/07-sample-content-recommendations.png)
 
 ## Challenges I Ran Into
 While building the workflow, I ran into issues with:
